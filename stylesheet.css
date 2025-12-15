@@ -1,0 +1,52 @@
+@import url(https://cdn.jsdelivr.net/npm/firacode@6.2.0/distr/fira_code.css);
+
+:root {
+  font-family: 'Fira Code', monospace;
+  font-size: 18px;
+}
+
+#master {
+  width: 400px;
+  display: grid;
+  grid-template-columns: 40% 60%;
+  row-gap: 5px;
+  font-family: inherit;
+  font-size: inherit;
+}
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    margin: 0; 
+}
+
+#master input[type="text"],#master input[type="number"] {
+  text-align: right;
+  outline: 0;
+  border: 2px solid black;
+  border-radius: 5px;
+  height: 24px;
+  font-family: inherit;
+  font-size: inherit;
+}
+
+#master input[type="button"] {
+  height: 25px;
+  border: 2px solid black;
+  border-radius: 9px;
+  width: min-content;
+  font-family: inherit;
+  font-size: inherit;
+  background-color: white;
+  margin: auto 0;
+}
+
+#master input[type="button"]:active {
+  background-color: rgb(240, 240, 240);
+}
+
+#master label {
+  margin: auto 0;
+}

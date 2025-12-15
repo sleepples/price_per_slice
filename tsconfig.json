@@ -1,0 +1,10 @@
+{
+	"compilerOptions": {
+		"strict": true,
+		"strictNullChecks": false,
+		"module": "ES6",
+		"lib": ["ES2022", "DOM", "DOM.Iterable"],
+		"outDir": "./dist",
+		"rootDir": "./src"
+	}
+}
